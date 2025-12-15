@@ -74,6 +74,20 @@ a {
     color: inherit;
 }
 
+a:hover {
+    background: linear-gradient(
+        90deg,
+        var(--brand-color-secondary) 0%,
+        var(--brand-color-primary) 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+}
+
 ul[role="list"] {  /* não permite os navegadores a nn desconsiderar o ul como lista quando tirar o list style*/
     list-style: none;
 }
