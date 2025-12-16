@@ -37,10 +37,12 @@
     padding: 0.5rem 1rem;
     font-size: var(--fs-sm);
 }
+
 .btn-md {
     padding: 0.75rem 1.5rem;
     font-size: var(--fs-base);
 }
+
 .btn-lg {
     padding: 1rem 2rem;
     font-size: 1.125rem;
